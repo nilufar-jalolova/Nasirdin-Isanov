@@ -615,11 +615,17 @@ section {
     font-size: 35px;
     font-family: "Roboto", sans-serif;
 }
-@media(min-width: 576px){
-    #second_img{
-    padding-left: 0px;
+
+#second_img {
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 576px) {
+    #second_img {
+        width: 50vh;
     }
 }
+
 .about .content ul {
     list-style: none;
     padding: 0;
