@@ -622,7 +622,8 @@ section {
 
 @media screen and (max-width: 576px) {
     #second_img {
-        width: 50vh;
+        width: 40vh;
+        position: center;
     }
 }
 
