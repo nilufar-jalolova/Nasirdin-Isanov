@@ -485,11 +485,11 @@ section {
 
 @media screen and (max-width: 768px) {
     #second_img {
+        margin-right: 5px!important;
         height: 70vh!important;
 
     }
 }
-
 
 .about .content ul {
     list-style: none;
@@ -540,6 +540,15 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 400px;
+    padding-right: 5px;
+    padding-left: 5px;
+
+}
+@media screen and (max-width: 768px) {
+    #imgr {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
 }
 
 /*--------------------------------------------------------------
