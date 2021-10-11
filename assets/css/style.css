@@ -478,10 +478,9 @@ section {
     justify-content: space-between;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
     #second_img {
-        width: 40vh;
-        position: center;
+        width: 100%;
     }
 }
 
