@@ -514,6 +514,7 @@ section {
 @media (max-width: 768px) {
     #second_img {
         height: 70vh!important;
+        justify-content: center!important;
 
     }
 }
