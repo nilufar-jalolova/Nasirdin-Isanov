@@ -246,13 +246,14 @@ h1, h2, h3, h4, h5, h6 {
     margin: 15px;
 }
 
-
+/*------------------------------------*/
 /*gallery*/
+/*------------------------------------*/
 .container.gallery-container {
     background-color: #fff;
     color: #35373a;
     min-height: 100vh;
-    padding: 30px 50px;
+
 }
 
 .gallery-container h1 {
@@ -499,15 +500,21 @@ section {
 
 
 
-@media screen and (max-width: 768px) {
-    #second_img {
-        margin-right: 5px!important;
-        height: 70vh!important;
+/*@media screen and (max-width: 768px) {*/
+/*    #second_img {*/
+/*        margin-right: 5px!important;*/
+/*        height: 70vh!important;*/
 
+
+/*    }*/
+/*}*/
+
+@media (max-width: 768px) {
+    #second_img {
+        height: 70vh!important;
 
     }
 }
-
 
 
 .about .content ul {
