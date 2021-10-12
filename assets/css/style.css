@@ -514,7 +514,12 @@ section {
 @media (max-width: 768px) {
     #second_img {
         height: 70vh!important;
-        justify-content: center!important;
+
+    }
+}
+@media (max-width: 320px) {
+    #second_img {
+        height: 60vh!important;
 
     }
 }
